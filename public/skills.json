@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "level": "Expert",
+    "image": "https://img.icons8.com/?size=48&id=20909&format=png"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "level": "Expert",
+    "image": "https://img.icons8.com/?size=48&id=21278&format=png"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "level": "Advanced",
+    "image": "https://img.icons8.com/?size=48&id=PXTY4q2Sq2lG&format=png"
+  },
+  {
+    "id": 4,
+    "name": "React",
+    "level": "Advanced",
+    "image": "https://img.icons8.com/?size=40&id=Nlsua06Gvxel&format=png"
+  },
+  {
+    "id": 5,
+    "name": "Tailwind CSS",
+    "level": "Advanced",
+    "image": "https://img.icons8.com/?size=48&id=CIAZz2CYc6Kc&format=png"
+  },
+  {
+    "id": 6,
+    "name": "Git",
+    "level": "Intermediate",
+    "image": "https://img.icons8.com/?size=48&id=20906&format=png"
+  },
+  {
+    "id": 7,
+    "name": "GitHub",
+    "level": "Advanced",
+    "image": "https://img.icons8.com/?size=30&id=62856&format=png"
+  },
+  {
+    "id": 8,
+    "name": "Node.js",
+    "level": "Intermediate",
+    "image": "https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png"
+  },
+  {
+    "id": 9,
+    "name": "Express.js",
+    "level": "Intermediate",
+    "image": "https://img.icons8.com/?size=48&id=SDVmtZ6VBGXt&format=png"
+  },
+  {
+    "id": 10,
+    "name": "Laravel",
+    "level": "Intermediate",
+    "image": "https://img.icons8.com/?size=64&id=hUvxmdu7Rloj&format=png"
+  },
+  {
+    "id": 11,
+    "name": "Figma",
+    "level": "Intermediate",
+    "image": "https://img.icons8.com/?size=48&id=zfHRZ6i1Wg0U&format=png"
+  }
+]

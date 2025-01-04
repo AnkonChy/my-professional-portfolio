@@ -2,14 +2,16 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero bg-base-200 h-[500px]">
-      <div className="hero-content flex-col lg:flex-row-reverse gap-28">
+    <div className="hero min-h-screen lg:min-h-[500px] bg-violet-50 mt-4">
+      <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src="https://i.ibb.co.com/J2627KR/Ankon-Chowdhury.jpg"
-          className="h-80 w-80 object-top  rounded-full shadow-2xl"
+          className="w-80 h-80 rounded-full object-top shadow-2xl"
         />
-        <div>
-          <h1 className="text-5xl font-bold">Frontend Developer</h1>
+        <div className="w-1/2">
+          <h1 className="text-5xl font-bold">
+            Hi, I&apos;m a passionate Frontend Developer
+          </h1>
           <p className="py-6">
             I transform visions into functional, eye-catching websites.
           </p>
