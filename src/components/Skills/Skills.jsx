@@ -10,7 +10,7 @@ const Skills = () => {
       .then((data) => setSkills(data));
   }, []);
   return (
-    <div className="px-4">
+    <div className="px-4 pt-16">
       <h1 className="text-5xl font-bold text-center my-10">Skills</h1>
       <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7">
         {skills.map((skill) => (

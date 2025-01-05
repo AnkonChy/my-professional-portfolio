@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 mt-4 sticky top-0">
       <div className="navbar-start">
-        <a className="btn btn-ghost text-xl">Ankon Chowdhury</a>
+        <a className="btn btn-ghost text-xl md:text-2xl lg:text-3xl">Ankon Chowdhury</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
