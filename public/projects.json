@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Peddy",
+    "liveLink": "https://my-peddy.netlify.app/",
+    "githubRepo": "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-AnkonChy",
+    "image": "https://i.ibb.co.com/ByqWDDb/2025-01-05-11-21-56-Settings.png",
+    "type": "E-commerce",
+    "description": "An online platform to choose and adopt pets easily."
+  },
+  {
+    "id": 2,
+    "name": "GadgetHeaven",
+    "liveLink": "https://gadget-heavennn.netlify.app/",
+    "githubRepo": "https://github.com/programming-hero-web-course2/b10a8-gadget-heaven-AnkonChy",
+    "image": "https://i.ibb.co.com/25dLmNP/2025-01-05-11-24-23-Settings.png",
+    "type": "E-commerce",
+    "description": "A tech store featuring gadgets with a wishlist and cart system."
+  },
+  {
+    "id": 3,
+    "name": "Eco Tales",
+    "liveLink": "https://eco-adventure-experience-b2a10.web.app/",
+    "githubRepo": "https://github.com/programming-hero-web-course1/b10-a9-authentication-AnkonChy",
+    "image": "https://i.ibb.co.com/yYwf5Lz/2025-01-05-11-25-21.png",
+    "type": "Blog",
+    "description": "A blog showcasing eco-adventure experiences for nature lovers."
+  }
+]

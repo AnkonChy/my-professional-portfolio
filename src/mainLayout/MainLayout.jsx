@@ -1,6 +1,7 @@
 import AboutMe from "../components/AboutMe/AboutMe";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
+import Projects from "../components/Projects/Projects";
 import Skills from "../components/Skills/Skills";
 
 const MainLayout = () => {
@@ -10,6 +11,7 @@ const MainLayout = () => {
       <Hero></Hero>
       <AboutMe></AboutMe>
       <Skills></Skills>
+      <Projects></Projects>
     </div>
   );
 };

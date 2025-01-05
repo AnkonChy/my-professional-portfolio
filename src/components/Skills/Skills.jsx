@@ -10,9 +10,9 @@ const Skills = () => {
       .then((data) => setSkills(data));
   }, []);
   return (
-    <div>
+    <div className="px-4">
       <h1 className="text-5xl font-bold text-center my-10">Skills</h1>
-      <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8">
+      <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7">
         {skills.map((skill) => (
           <Skill key={skill.id} skill={skill}></Skill>
         ))}

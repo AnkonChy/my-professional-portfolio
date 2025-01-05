@@ -64,5 +64,11 @@
     "name": "Figma",
     "level": "Intermediate",
     "image": "https://img.icons8.com/?size=48&id=zfHRZ6i1Wg0U&format=png"
+  },
+  {
+    "id": 12,
+    "name": "Bootstrap",
+    "level": "Intermediate",
+    "image": "https://img.icons8.com/?size=48&id=PndQWK6M1Hjo&format=png"
   }
 ]
