@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const links = (
@@ -6,10 +6,40 @@ const Navbar = () => {
       <li>
         <Link className="text-lg font-medium">Home</Link>
       </li>
+      <li>
+        <Link
+          to="aboutMe"
+          smooth={true}
+          duration={500}
+          className="text-lg font-medium"
+        >
+          About me
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="projects"
+          smooth={true}
+          duration={500}
+          className="text-lg font-medium"
+        >
+          Projects
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="contact"
+          smooth={true}
+          duration={500}
+          className="text-lg font-medium"
+        >
+          Contact
+        </Link>
+      </li>
     </>
   );
   return (
-    <div className="navbar bg-base-100 mt-4">
+    <div className="navbar bg-base-100 mt-4 sticky top-0">
       <div className="navbar-start">
         <a className="btn btn-ghost text-xl">Ankon Chowdhury</a>
       </div>

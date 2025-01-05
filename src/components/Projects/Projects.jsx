@@ -10,7 +10,7 @@ const Projects = () => {
       .then((data) => setProjects(data));
   }, []);
   return (
-    <div className="px-4">
+    <div className="px-4" id="projects">
       <h1 className="text-5xl font-bold text-center my-10">Projects</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project) => (

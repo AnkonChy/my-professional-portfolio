@@ -2,10 +2,10 @@ import React from "react";
 
 const ContactMe = () => {
   return (
-    <div className="px-4">
+    <div className="px-4 my-10" id="contact">
       <h1 className="text-5xl font-bold text-center my-10">Contact Me</h1>
-      <div className="card card-side bg-base-100 shadow-xl gap-10">
-        <div>
+      <div className="card card-side bg-base-100 shadow-xl">
+        <div className="w-1/2 px-20 pt-10">
           <label className="input input-bordered flex items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@ const ContactMe = () => {
             </svg>
             <input type="text" className="grow" placeholder="Email" />
           </label>
-          <label className="input input-bordered flex items-center gap-2">
+          <label className="input input-bordered flex items-center gap-2 my-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -27,7 +27,7 @@ const ContactMe = () => {
             >
               <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" />
             </svg>
-            <textarea className="pt-2" name="message" id="" placeholder="Write your message"></textarea>
+            <input type="text" className="grow" placeholder="Message" />
           </label>
         </div>
         <div className="card-body">
@@ -35,9 +35,6 @@ const ContactMe = () => {
           <p>ankonchy1@gmail.com</p>
           <p>Phone: 0232323232</p>
           <p>What&apos;s app: 0232323232</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Go</button>
-          </div>
         </div>
       </div>
     </div>
