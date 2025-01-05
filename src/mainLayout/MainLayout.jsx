@@ -1,4 +1,5 @@
 import AboutMe from "../components/AboutMe/AboutMe";
+import ContactMe from "../components/ContactMe/ContactMe";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
 import Projects from "../components/Projects/Projects";
@@ -12,6 +13,7 @@ const MainLayout = () => {
       <AboutMe></AboutMe>
       <Skills></Skills>
       <Projects></Projects>
+      <ContactMe></ContactMe>
     </div>
   );
 };
