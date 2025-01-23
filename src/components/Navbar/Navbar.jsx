@@ -39,7 +39,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar fixed z-10 bg-opacity-10 bg-black max-w-full lg:px-[116px]">
+    <div className="navbar fixed z-10 max-w-full lg:px-[116px] backdrop-blur-sm">
       <div className="navbar-start">
         <a className="btn btn-ghost text-xl md:text-2xl lg:text-3xl">
           Ankon Chowdhury
@@ -49,7 +49,16 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-[#7c3aed] hover:bg-[#5b21b6] text-white">Resume</a>
+        <button
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/19JCgv212mYxUInkDNuikDBWcEtioh8oj/view?usp=sharing"
+            )
+          }
+          className="px-2 py-2 py- rounded-md text-sm md:text-base font-medium bg-[#7c3aed] hover:bg-[#5b21b6] text-white"
+        >
+          Resume
+        </button>
       </div>
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

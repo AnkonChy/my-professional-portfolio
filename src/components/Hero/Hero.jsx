@@ -9,10 +9,10 @@ const Hero = () => {
           className="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full object-top shadow-2xl"
         />
         <div className="md:w-1/2">
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-5xl font-bold mt-6 lg:mt-0">
             Hi, I&apos;m a passionate Frontend Developer
           </h1>
-          <p className="py-6">
+          <p className="py-6 font-medium">
             I transform visions into functional, eye-catching websites.
           </p>
           <div className="flex items-center gap-1 mt-1 mb-2">
