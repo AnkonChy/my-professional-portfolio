@@ -9,7 +9,7 @@ const Project = ({ project }) => {
         <h2 className="card-title">{name}</h2>
         <p>{description}</p>
         <div className="card-actions">
-          <button className="btn btn-info">View Details</button>
+          <button className="btn bg-[#7c3aed] hover:bg-[#5b21b6] text-white">View Details</button>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import React from "react";
 const ContactMe = () => {
   return (
     <div className="px-4 my-10 pt-16" id="contact">
-      <h1 className="text-5xl font-bold text-center my-10">Contact Me</h1>
+      {/* <h1 className="text-5xl font-bold text-center my-10">Contact Me</h1>
       <div className="card card-side bg-base-100 shadow-xl">
         <div className="w-1/2 px-20 pt-10">
           <label className="input input-bordered flex items-center gap-2">
@@ -36,7 +36,7 @@ const ContactMe = () => {
           <p>Phone: 0232323232</p>
           <p>What&apos;s app: 0232323232</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -2,13 +2,13 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero min-h-screen lg:min-h-[500px] bg-violet-50 mt-4">
+    <div className="hero min-h-screen lg:min-h-[600px] bg-violet-50 lg:pt-20">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src="https://i.ibb.co.com/J2627KR/Ankon-Chowdhury.jpg"
-          className="w-80 h-80 rounded-full object-top shadow-2xl"
+          className="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full object-top shadow-2xl"
         />
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <h1 className="text-5xl font-bold">
             Hi, I&apos;m a passionate Frontend Developer
           </h1>
@@ -38,7 +38,11 @@ const Hero = () => {
               />
             </div>
           </div>
-          <button className="btn btn-accent my-2">Download Resume</button>
+          <button className="btn bg-[#7c3aed] hover:bg-[#5b21b6] text-white my-2">
+            Download Resume
+          </button>
+
+          {/* #5b21b6 */}
         </div>
       </div>
     </div>

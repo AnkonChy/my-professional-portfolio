@@ -39,15 +39,17 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 mt-4 sticky top-0">
+    <div className="navbar fixed z-10 bg-opacity-10 bg-black max-w-full lg:px-[116px]">
       <div className="navbar-start">
-        <a className="btn btn-ghost text-xl md:text-2xl lg:text-3xl">Ankon Chowdhury</a>
+        <a className="btn btn-ghost text-xl md:text-2xl lg:text-3xl">
+          Ankon Chowdhury
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-success">Resume</a>
+        <a className="btn bg-[#7c3aed] hover:bg-[#5b21b6] text-white">Resume</a>
       </div>
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
