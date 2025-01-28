@@ -6,7 +6,9 @@ const MainLayout = () => {
   return (
     <div className="font-montserrat">
       <Navbar></Navbar>
-      <Outlet></Outlet>
+      <div className="min-h-[calc(100vh-52px)] rounded-none">
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </div>
   );

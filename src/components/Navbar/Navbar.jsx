@@ -1,10 +1,11 @@
+import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
   const links = (
     <>
       <li>
-        <Link className="text-lg font-medium">Home</Link>
+        <NavLink to="/" className="text-lg font-medium">Home</NavLink>
       </li>
       <li>
         <Link
@@ -39,7 +40,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar fixed z-10 max-w-full lg:px-[116px] backdrop-blur-sm">
+    <div className="navbar fixed  z-10 max-w-full lg:px-[116px] backdrop-blur-sm">
       <div className="navbar-start">
         <a className="btn btn-ghost text-xl md:text-2xl lg:text-3xl">
           Ankon Chowdhury

@@ -4,27 +4,36 @@
     "name": "QuickGig",
     "liveLink": "https://quick-gig.web.app/",
     "githubRepo": "https://github.com/AnkonChy/quickgig-client.git",
-    "image": "https://ibb.co.com/23L8jsv",
+    "image": "https://i.ibb.co.com/s9D5F6K/2025-01-28-11-16-52-Settings.png",
     "type": "Online Marketplace",
-    "description": "A micro-task platform enabling users to earn or hire with secure payments and real-time management."
+    "short_description": "A micro-task platform enabling users to earn or hire with secure payments and real-time management.",
+    "description": "QuickGig simplifies earning and hiring through micro-tasks. It ensures secure payments and real-time task management, fostering a trusted marketplace for freelancers and clients.",
+    "technologies": ["React", "Firebase", "Tailwind CSS", "Node.js"],
+    "tools": ["VS Code", "GitHub", "Postman", "Chrome DevTools"]
   },
   {
     "id": 2,
     "name": "PlateShare",
     "liveLink": "https://plate-share-42586.web.app/",
     "githubRepo": "https://github.com/AnkonChy/plate-share-client.git",
-    "image": "https://ibb.co.com/HqQwccC",
+    "image": "https://i.ibb.co.com/cQdfWWw/2025-01-28-11-27-53-Settings.png",
     "type": "Food Donation Management System",
-    "description": "A platform connecting donors and recipients for efficient food donation with secure, location-based features."
+    "short_description": "A platform connecting donors and recipients for efficient food donation with secure, location-based features.",
+    "description": "PlateShare bridges the gap between food donors and recipients. It offers secure, location-based features for efficient food sharing, promoting community collaboration and reducing food waste.",
+    "technologies": ["React", "Google Maps API", "Firebase", "Bootstrap"],
+    "tools": ["VS Code", "GitHub", "Figma", "Postman"]
   },
   {
     "id": 3,
     "name": "CineVault",
     "liveLink": "https://portal-91857.web.app/",
     "githubRepo": "https://github.com/AnkonChy/cinevault-client.git",
-    "image": "https://ibb.co.com/D5BjGF5",
+    "image": "https://i.ibb.co.com/BqhY4Jq/2025-01-28-11-23-40-Settings.png",
     "type": "Movie Portal",
-    "description": "A platform for exploring, viewing detailed movie information, and managing favorites. Users can add, delete, and organize their movie collections for an engaging entertainment experience."
+    "short_description": "A platform for exploring, viewing detailed movie information, and managing favorites.",
+    "description": "CineVault allows users to explore movies, view detailed information, and manage their favorites. The platform provides an engaging experience with features for adding, deleting, and organizing movie collections.",
+    "technologies": ["React", "MongoDB", "Express.js", "Tailwind CSS"],
+    "tools": ["VS Code", "GitHub", "Postman", "Notion"]
   },
   {
     "id": 4,
@@ -33,7 +42,10 @@
     "githubRepo": "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-AnkonChy",
     "image": "https://i.ibb.co.com/ByqWDDb/2025-01-05-11-21-56-Settings.png",
     "type": "E-commerce",
-    "description": "An online platform to choose and adopt pets easily."
+    "short_description": "An online platform to choose and adopt pets easily.",
+    "description": "Peddy simplifies pet adoption by offering a user-friendly platform where users can browse and select pets. It’s designed for easy adoption processes.",
+    "technologies": ["React", "Firebase", "Tailwind CSS", "Netlify"],
+    "tools": ["VS Code", "GitHub", "Figma", "Chrome DevTools"]
   },
   {
     "id": 5,
@@ -42,7 +54,10 @@
     "githubRepo": "https://github.com/programming-hero-web-course2/b10a8-gadget-heaven-AnkonChy",
     "image": "https://i.ibb.co.com/25dLmNP/2025-01-05-11-24-23-Settings.png",
     "type": "E-commerce",
-    "description": "A tech store featuring gadgets with a wishlist and cart system."
+    "short_description": "A tech store featuring gadgets with a wishlist and cart system.",
+    "description": "GadgetHeaven provides a seamless shopping experience for tech enthusiasts. Users can add products to their cart or wishlist, and explore gadgets with ease.",
+    "technologies": ["React", "Redux", "Netlify", "Bootstrap"],
+    "tools": ["VS Code", "GitHub", "Postman", "Figma"]
   },
   {
     "id": 6,
@@ -51,6 +66,9 @@
     "githubRepo": "https://github.com/programming-hero-web-course1/b10-a9-authentication-AnkonChy",
     "image": "https://i.ibb.co.com/yYwf5Lz/2025-01-05-11-25-21.png",
     "type": "Blog",
-    "description": "A blog showcasing eco-adventure experiences for nature lovers."
+    "short_description": "A blog showcasing eco-adventure experiences for nature lovers.",
+    "description": "Eco Tales offers rich insights into eco-adventure experiences. It’s a platform for nature lovers to explore and learn about eco-friendly travel options.",
+    "technologies": ["React", "Firebase", "Bootstrap", "Netlify"],
+    "tools": ["VS Code", "GitHub", "Canva", "Chrome DevTools"]
   }
 ]
