@@ -1,6 +1,33 @@
 [
   {
     "id": 1,
+    "name": "QuickGig",
+    "liveLink": "https://quick-gig.web.app/",
+    "githubRepo": "https://github.com/AnkonChy/quickgig-client.git",
+    "image": "https://ibb.co.com/23L8jsv",
+    "type": "Online Marketplace",
+    "description": "A micro-task platform enabling users to earn or hire with secure payments and real-time management."
+  },
+  {
+    "id": 2,
+    "name": "PlateShare",
+    "liveLink": "https://plate-share-42586.web.app/",
+    "githubRepo": "https://github.com/AnkonChy/plate-share-client.git",
+    "image": "https://ibb.co.com/HqQwccC",
+    "type": "Food Donation Management System",
+    "description": "A platform connecting donors and recipients for efficient food donation with secure, location-based features."
+  },
+  {
+    "id": 3,
+    "name": "CineVault",
+    "liveLink": "https://portal-91857.web.app/",
+    "githubRepo": "https://github.com/AnkonChy/cinevault-client.git",
+    "image": "https://ibb.co.com/D5BjGF5",
+    "type": "Movie Portal",
+    "description": "A platform for exploring, viewing detailed movie information, and managing favorites. Users can add, delete, and organize their movie collections for an engaging entertainment experience."
+  },
+  {
+    "id": 4,
     "name": "Peddy",
     "liveLink": "https://my-peddy.netlify.app/",
     "githubRepo": "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-AnkonChy",
@@ -9,7 +36,7 @@
     "description": "An online platform to choose and adopt pets easily."
   },
   {
-    "id": 2,
+    "id": 5,
     "name": "GadgetHeaven",
     "liveLink": "https://gadget-heavennn.netlify.app/",
     "githubRepo": "https://github.com/programming-hero-web-course2/b10a8-gadget-heaven-AnkonChy",
@@ -18,7 +45,7 @@
     "description": "A tech store featuring gadgets with a wishlist and cart system."
   },
   {
-    "id": 3,
+    "id": 6,
     "name": "Eco Tales",
     "liveLink": "https://eco-adventure-experience-b2a10.web.app/",
     "githubRepo": "https://github.com/programming-hero-web-course1/b10-a9-authentication-AnkonChy",
