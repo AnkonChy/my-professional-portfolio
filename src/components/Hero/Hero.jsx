@@ -1,6 +1,14 @@
 import React from "react";
 
+const PDF_FILE = "http://localhost:5173/Resume-of-Ankon-Chowdhury.pdf";
+
 const Hero = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Resume-of-Ankon-Chowdhury.pdf";
+    link.download = "Resume-of-Ankon-Chowdhury";
+    link.click();
+  };
   return (
     <div className="hero min-h-screen lg:min-h-[600px] bg-violet-50 lg:pt-20">
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -38,7 +46,10 @@ const Hero = () => {
               />
             </div>
           </div>
-          <button className="btn bg-[#7c3aed] hover:bg-[#5b21b6] text-white my-2">
+          <button
+            onClick={handleDownload}
+            className="btn bg-[#7c3aed] hover:bg-[#5b21b6] text-white my-2"
+          >
             Download Resume
           </button>
 

@@ -8,8 +8,16 @@
     "type": "Online Marketplace",
     "short_description": "A micro-task platform enabling users to earn or hire with secure payments and real-time management.",
     "description": "QuickGig simplifies earning and hiring through micro-tasks. It ensures secure payments and real-time task management, fostering a trusted marketplace for freelancers and clients.",
-    "technologies": ["React", "Firebase", "Tailwind CSS", "Node.js"],
-    "tools": ["VS Code", "GitHub", "Postman", "Chrome DevTools"]
+    "technologies": [
+      "React",
+      "Firebase",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "Daisy UI",
+      "MongoDB"
+    ],
+    "tools": ["VS Code", "Git", "GitHub", "Postman"]
   },
   {
     "id": 2,
