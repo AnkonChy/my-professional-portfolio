@@ -1,4 +1,6 @@
 import React from "react";
+import { Typewriter } from "react-simple-typewriter";
+// import Typical from "react-typical";
 
 const PDF_FILE = "http://localhost:5173/Resume-of-Ankon-Chowdhury.pdf";
 
@@ -17,8 +19,23 @@ const Hero = () => {
           className="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full object-top shadow-2xl"
         />
         <div className="md:w-1/2">
-          <h1 className="text-5xl font-bold mt-6 lg:mt-0">
-            Hi, I&apos;m a passionate Frontend Developer
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-6 lg:mt-0">
+            Hi, I&apos;m a passionate{" "}
+            <span className="text-slate-700">
+              <Typewriter
+                words={[
+                  "Frontend Developer",
+                  "React Enthusiast",
+                  "MERN Stack Developer",
+                ]}
+                loop={0} // Infinite loop
+                cursor
+                cursorStyle="."
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
           </h1>
           <p className="py-6 font-medium">
             I transform visions into functional, eye-catching websites.
