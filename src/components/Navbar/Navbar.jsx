@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
+import './Navbar.css'
 
 const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/" className="text-lg font-medium bg-white">Home</NavLink>
+        <NavLink to="/" className="text-lg font-medium">Home</NavLink>
       </li>
       <li>
         <Link
