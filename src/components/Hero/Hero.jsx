@@ -20,7 +20,7 @@ const Hero = () => {
             className="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full object-top shadow-2xl lg:mb-10"
           />
         </div>
-        <div className="lg:w-1/2 mt-10 md:mt-0">
+        <div className="lg:w-1/2 mt-10 md:mt-6">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
             Hi, I&apos;m a passionate{" "}
             <span className="text-slate-700">

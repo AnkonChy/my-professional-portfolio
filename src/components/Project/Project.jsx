@@ -9,7 +9,7 @@ const Project = ({ project }) => {
       </figure>
       <div className="card-body items-center text-center object-fill">
         <h2 className="card-title">{name}</h2>
-        <p>{short_description}</p>
+        <p className="text-justify">{short_description}</p>
         <div className="card-actions">
           <Link to={`/project/${id}`}>
             <button className="btn bg-black hover:bg-[#5b21b6] text-white">

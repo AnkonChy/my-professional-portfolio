@@ -54,7 +54,7 @@ const Navbar = () => {
         <button
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/19JCgv212mYxUInkDNuikDBWcEtioh8oj/view?usp=sharing"
+              "https://drive.google.com/drive/folders/1P0ntuUUAkgz7Z1MZZAUeQTunpUVViwCA?usp=sharing"
             )
           }
           className="px-2 py-2 py- rounded-md text-sm md:text-base font-medium bg-[#7c3aed] hover:bg-[#5b21b6] text-white"
