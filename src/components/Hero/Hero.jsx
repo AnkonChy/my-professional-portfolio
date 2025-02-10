@@ -12,7 +12,7 @@ const Hero = () => {
     link.click();
   };
   return (
-    <div className="min-h-screen lg:min-h-[600px] bg-violet-50 pt-20 px-4 lg:pt-20 md:py-10">
+    <div className="min-h-screen md:min-h-[450px] lg:min-h-[600px] bg-violet-50 pt-20 px-4 lg:pt-20 md:py-10">
       <div className="lg:w-10/12 mx-auto mt-20 flex items-center justify-center flex-col lg:flex-row-reverse">
         <div className="lg:w-1/2 flex flex-col justify-center items-center">
           <img
@@ -20,7 +20,7 @@ const Hero = () => {
             className="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full object-top shadow-2xl lg:mb-10"
           />
         </div>
-        <div className="lg:w-1/2 mt-10 md:mt-6">
+        <div className="lg:w-1/2 mt-10 md:mt-10">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
             Hi, I&apos;m a passionate{" "}
             <span className="text-slate-700">
@@ -44,25 +44,34 @@ const Hero = () => {
           </p>
           <div className="flex items-center gap-1 mt-1 mb-2">
             <div>
-              <img
-                className="w-10 h-10"
-                src="https://img.icons8.com/?size=64&id=3tC9EQumUAuq&format=png"
-                alt=""
-              />
+              <a href="https://github.com/AnkonChy" target="_blank">
+                <img
+                  className="w-10 h-10"
+                  src="https://img.icons8.com/?size=64&id=3tC9EQumUAuq&format=png"
+                  alt=""
+                />
+              </a>
             </div>
             <div>
-              <img
-                className="w-10 h-10"
-                src="https://img.icons8.com/?size=48&id=xuvGCOXi8Wyg&format=png"
-                alt=""
-              />
+              <a
+                href="https://www.linkedin.com/in/ankon-chowdhury/"
+                target="_blank"
+              >
+                <img
+                  className="w-10 h-10"
+                  src="https://img.icons8.com/?size=48&id=xuvGCOXi8Wyg&format=png"
+                  alt=""
+                />
+              </a>
             </div>
             <div>
-              <img
-                className="w-10 h-10"
-                src="https://img.icons8.com/?size=50&id=phOKFKYpe00C&format=png"
-                alt=""
-              />
+              <a href="https://x.com/AnkonChy2682" target="_blank">
+                <img
+                  className="w-10 h-10"
+                  src="https://img.icons8.com/?size=50&id=phOKFKYpe00C&format=png"
+                  alt=""
+                />
+              </a>
             </div>
           </div>
           <button

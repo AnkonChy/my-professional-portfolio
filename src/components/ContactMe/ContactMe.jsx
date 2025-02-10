@@ -23,7 +23,7 @@ const ContactMe = () => {
       <div className="w-11/12 mx-auto pt-16" id="contact">
         <h1 className="text-5xl font-bold text-center my-10">Contact Me</h1>
         <div className="card card-side bg-base-100 shadow-xl flex-col lg:flex-row pb-14">
-          <div className="w-1/2 px-20 pt-10">
+          <div className="md:w-1/2 px-20 pt-10">
             <form onSubmit={handleFormSubmit}>
               <label className="input input-bordered flex items-center gap-2">
                 <svg
@@ -38,8 +38,9 @@ const ContactMe = () => {
                 <input
                   type="text"
                   name="name"
-                  className="grow"
+                  className=""
                   placeholder="Name"
+                  required
                 />
               </label>
               <label className="input input-bordered flex items-center gap-2 my-2">
@@ -57,6 +58,7 @@ const ContactMe = () => {
                   name="email"
                   className="grow"
                   placeholder="Email"
+                  required
                 />
               </label>
               <label className="input input-bordered flex items-center gap-2 my-2">
@@ -73,6 +75,7 @@ const ContactMe = () => {
                   name="message"
                   className="grow"
                   placeholder="Message"
+                  required
                 />
               </label>
               <button className="btn" type="submit">
