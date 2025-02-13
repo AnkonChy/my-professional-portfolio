@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="lg:w-10/12 mx-auto mt-20 flex items-center justify-center flex-col lg:flex-row-reverse">
         <div className="lg:w-1/2 flex flex-col justify-center items-center">
           <img
-            src="https://i.ibb.co.com/J2627KR/Ankon-Chowdhury.jpg"
+            src="https://i.ibb.co.com/wFdQYyL8/Ankon-2.jpg"
             className="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full object-top shadow-2xl lg:mb-10"
           />
         </div>

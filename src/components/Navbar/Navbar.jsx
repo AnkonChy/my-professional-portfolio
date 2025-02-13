@@ -7,14 +7,14 @@ const Navbar = () => {
   return (
     <div className="navbar fixed  z-10 max-w-full lg:px-[116px] backdrop-blur-sm">
       <div className="navbar-start">
-        <a className="btn btn-ghost text-xl md:text-2xl lg:text-3xl">
+        <Link to="/" className="btn btn-ghost text-xl md:text-2xl lg:text-3xl">
           Ankon Chowdhury
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link to="/" className="text-lg font-medium">
+            <Link to="/" className="text-base font-medium">
               Home
             </Link>
           </li>
@@ -23,7 +23,7 @@ const Navbar = () => {
               to="aboutMe"
               smooth={true}
               duration={500}
-              className="text-lg font-medium"
+              className="text-base font-medium"
             >
               About me
             </ScrollLink>
@@ -33,7 +33,7 @@ const Navbar = () => {
               to="projects"
               smooth={true}
               duration={500}
-              className="text-lg font-medium"
+              className="text-base font-medium"
             >
               Projects
             </ScrollLink>
@@ -43,7 +43,7 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={500}
-              className="text-lg font-medium"
+              className="text-base font-medium"
             >
               Contact
             </ScrollLink>
@@ -84,7 +84,7 @@ const Navbar = () => {
           className="menu menu-sm dropdown-content bg-slate-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0"
         >
           <li>
-            <Link to="/" className="text-lg font-medium">
+            <Link to="/" className="text-base font-medium">
               Home
             </Link>
           </li>
@@ -93,7 +93,7 @@ const Navbar = () => {
               to="aboutMe"
               smooth={true}
               duration={500}
-              className="text-lg font-medium"
+              className=" font-medium"
             >
               About me
             </ScrollLink>
@@ -103,7 +103,7 @@ const Navbar = () => {
               to="projects"
               smooth={true}
               duration={500}
-              className="text-lg font-medium"
+              className="text-base font-medium"
             >
               Projects
             </ScrollLink>
@@ -113,7 +113,7 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={500}
-              className="text-lg font-medium"
+              className="text-base font-medium"
             >
               Contact
             </ScrollLink>
