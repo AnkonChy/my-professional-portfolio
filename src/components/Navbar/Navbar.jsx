@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="navbar fixed  z-10 max-w-full lg:px-[116px] backdrop-blur-sm">
       <div className="navbar-start">
-        <Link to="/" className="btn btn-ghost text-xl md:text-2xl lg:text-3xl">
+        <Link to="/" className="text-xl font-semibold md:text-2xl lg:text-3xl">
           Ankon Chowdhury
         </Link>
       </div>
