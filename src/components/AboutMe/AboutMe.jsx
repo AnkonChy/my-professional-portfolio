@@ -1,14 +1,15 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const AboutMe = () => {
+  const aboutMeRef = useRef(null);
   useEffect(() => {
     Aos.init();
   }, []);
   return (
     <div
-      className="pt-16 md:w-10/12 md:mx-auto flex flex-col lg:flex-row gap-10"
+      className="pt-16 md:w-10/12 md:mx-auto flex flex-col lg:flex-row lg:gap-10"
       id="aboutMe"
     >
       <div
@@ -16,20 +17,20 @@ const AboutMe = () => {
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
-        data-aos-duration="1000"
+        data-aos-duration="1200"
       >
         <img
-          src="../../../public/Programming-pana.png"
-          className="pr-6"
+          src="https://i.ibb.co/ZR3CZFxG/Programming-pana.png"
+          className="pr-16 pt-4"
           alt=""
         />
       </div>
       <div
         className="flex-1 p-4 lg:p-0"
-        data-aos="fade-left"
+        data-aos="fade-down"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
-        data-aos-duration="1000"
+        data-aos-duration="1200"
       >
         <h1 className="text-5xl font-bold my-10 text-center">About Me</h1>
         <p className="text-lg font-medium text-justify">
