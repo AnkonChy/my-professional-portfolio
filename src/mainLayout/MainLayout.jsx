@@ -1,7 +1,8 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
-import toast, { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from "react-hot-toast";
+import SplashCursor from "../../ReactBits/SplashCursor/SplashCursor";
 
 const MainLayout = () => {
   return (
@@ -11,7 +12,8 @@ const MainLayout = () => {
         <Outlet></Outlet>
       </div>
       <Footer></Footer>
-      <Toaster/>
+      <Toaster />
+      <SplashCursor />
     </div>
   );
 };

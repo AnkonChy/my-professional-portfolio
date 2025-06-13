@@ -3,6 +3,7 @@ import MainLayout from "../mainLayout/MainLayout";
 import Home from "../pages/Home/Home";
 import ProjectDetails from "../pages/ProjectDetails/ProjectDetails";
 
+
 export const router = createBrowserRouter([
   {
     path: "/",

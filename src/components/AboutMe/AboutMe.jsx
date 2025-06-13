@@ -9,7 +9,7 @@ const AboutMe = () => {
   }, []);
   return (
     <div
-      className="pt-16 md:w-10/12 md:mx-auto flex flex-col lg:flex-row lg:gap-10"
+      className="pt-16 md:w-10/12 md:mx-auto flex flex-col lg:flex-row"
       id="aboutMe"
     >
       <div
@@ -21,7 +21,7 @@ const AboutMe = () => {
       >
         <img
           src="https://i.ibb.co/ZR3CZFxG/Programming-pana.png"
-          className="pr-16 pt-4"
+          className="md:pr-28"
           alt=""
         />
       </div>
