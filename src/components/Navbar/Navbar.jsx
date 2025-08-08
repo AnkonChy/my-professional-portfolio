@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link to="/" className="text-base font-medium">
+            <Link to="/" className="text-base font-medium hover:bg-violet-50 hover:underline hover:text-violet-500 hover:font-semibold">
               Home
             </Link>
           </li>
@@ -23,7 +23,7 @@ const Navbar = () => {
               to="aboutMe"
               smooth={true}
               duration={500}
-              className="text-base font-medium"
+              className="text-base font-medium hover:bg-violet-50 hover:underline hover:text-violet-500 hover:font-semibold"
             >
               About me
             </ScrollLink>
@@ -33,7 +33,7 @@ const Navbar = () => {
               to="projects"
               smooth={true}
               duration={500}
-              className="text-base font-medium"
+              className="text-base font-medium hover:bg-violet-50 hover:underline hover:text-violet-500 hover:font-semibold"
             >
               Projects
             </ScrollLink>
@@ -43,7 +43,7 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={500}
-              className="text-base font-medium"
+              className="text-base font-medium hover:bg-violet-50 hover:underline hover:text-violet-500 hover:font-semibold"
             >
               Contact
             </ScrollLink>
@@ -63,7 +63,7 @@ const Navbar = () => {
         </button>
       </div>
       <div className="dropdown">
-        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+        <div tabIndex={0} role="button" className="btn lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"

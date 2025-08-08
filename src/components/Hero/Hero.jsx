@@ -7,8 +7,8 @@ const PDF_FILE = "http://localhost:5173/Resume-of-Ankon-Chowdhury.pdf";
 const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Resume-of-Ankon-Chowdhury.pdf";
-    link.download = "Resume-of-Ankon-Chowdhury";
+    link.href = "/Resume_of_Ankon_Chowdhury.pdf";
+    link.download = "Resume_of_Ankon_Chowdhury";
     link.click();
   };
   return (
