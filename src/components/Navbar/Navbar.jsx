@@ -14,7 +14,15 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link to="/" className="text-base font-medium hover:bg-violet-50 hover:underline hover:text-violet-500 hover:font-semibold">
+            <Link
+              to="/"
+              className="relative text-base font-medium hover:bg-violet-50 text-black 
+             after:content-[''] after:absolute after:bottom-1 
+             after:left-1/2 after:transform after:-translate-x-1/2 
+             after:w-3/4 after:h-[2px] after:bg-violet-500 
+             after:scale-x-0 after:origin-left after:transition-transform 
+             after:duration-300 hover:after:scale-x-100"
+            >
               Home
             </Link>
           </li>
@@ -23,7 +31,12 @@ const Navbar = () => {
               to="aboutMe"
               smooth={true}
               duration={500}
-              className="text-base font-medium hover:bg-violet-50 hover:underline hover:text-violet-500 hover:font-semibold"
+              className="relative text-base font-medium hover:bg-violet-50 text-black 
+             after:content-[''] after:absolute after:bottom-1 
+             after:left-1/2 after:transform after:-translate-x-1/2 
+             after:w-3/4 after:h-[2px] after:bg-violet-500 
+             after:scale-x-0 after:origin-left after:transition-transform 
+             after:duration-300 hover:after:scale-x-100"
             >
               About me
             </ScrollLink>
@@ -33,7 +46,12 @@ const Navbar = () => {
               to="projects"
               smooth={true}
               duration={500}
-              className="text-base font-medium hover:bg-violet-50 hover:underline hover:text-violet-500 hover:font-semibold"
+              className="relative text-base font-medium hover:bg-violet-50 text-black 
+             after:content-[''] after:absolute after:bottom-1 
+             after:left-1/2 after:transform after:-translate-x-1/2 
+             after:w-3/4 after:h-[2px] after:bg-violet-500 
+             after:scale-x-0 after:origin-left after:transition-transform 
+             after:duration-300 hover:after:scale-x-100"
             >
               Projects
             </ScrollLink>
@@ -43,7 +61,12 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={500}
-              className="text-base font-medium hover:bg-violet-50 hover:underline hover:text-violet-500 hover:font-semibold"
+              className="relative text-base font-medium hover:bg-violet-50 text-black 
+             after:content-[''] after:absolute after:bottom-1 
+             after:left-1/2 after:transform after:-translate-x-1/2 
+             after:w-3/4 after:h-[2px] after:bg-violet-500 
+             after:scale-x-0 after:origin-left after:transition-transform 
+             after:duration-300 hover:after:scale-x-100"
             >
               Contact
             </ScrollLink>

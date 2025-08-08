@@ -11,7 +11,13 @@ const Skills = () => {
   }, []);
   return (
     <div className="px-4 py-16 md:w-10/12 md:mx-auto">
-      <h1 className="text-5xl font-bold text-center my-10">Skills</h1>
+      <h1
+        className="text-5xl font-bold text-center my-10"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        Skills
+      </h1>
       <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7">
         {skills.map((skill) => (
           <Skill key={skill.id} skill={skill}></Skill>

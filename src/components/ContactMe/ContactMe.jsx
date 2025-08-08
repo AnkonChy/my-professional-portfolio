@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import toast from "react-hot-toast";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 const ContactMe = () => {
   const handleFormSubmit = (e) => {
@@ -17,11 +19,21 @@ const ContactMe = () => {
     console.log(contactInfo);
     toast.success("Message Send Successfully");
     form.reset();
+
+    useEffect(() => {
+      Aos.init();
+    }, []);
   };
   return (
     <div>
       <div className="w-11/12 mx-auto pt-16" id="contact">
-        <h1 className="text-5xl font-bold text-center my-10">Contact Me</h1>
+        <h1
+          className="text-5xl font-bold text-center my-10"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          Contact Me
+        </h1>
         <div className="card card-side bg-base-100 shadow-xl flex-col lg:flex-row pb-14">
           <div className="md:w-1/2 px-20 pt-10">
             <form onSubmit={handleFormSubmit}>
