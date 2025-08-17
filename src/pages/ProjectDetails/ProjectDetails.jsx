@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 
 const ProjectDetails = () => {
   const allData = useLoaderData();
@@ -47,8 +47,14 @@ const ProjectDetails = () => {
               <p className="break-words">{singleData.githubRepo}</p>
             </div>
             <div>
-              <h3 className="text-lg font-medium underline">Live link</h3>
-              <p>{singleData.liveLink}</p>
+              <a
+                href={singleData.liveLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg font-medium underline text-blue-600 hover:underline"
+              >
+                Live link
+              </a>
             </div>
           </div>
         </div>

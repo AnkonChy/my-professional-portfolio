@@ -90,7 +90,7 @@ const ContactMe = () => {
                   required
                 />
               </label>
-              <button className="btn" type="submit">
+              <button className="btn bg-[#7c3aed] hover:bg-[#5b21b6] text-white" type="submit">
                 Send Message
               </button>
             </form>
@@ -98,8 +98,8 @@ const ContactMe = () => {
           <div className="card-body">
             <h2 className="card-title">Location: Dhanmondi,Dhaka,Bangladesh</h2>
             <p>ankonchy1@gmail.com</p>
-            <p>Phone: 0232323232</p>
-            <p>What&apos;s app: 0232323232</p>
+            <p>Phone: 01850262127</p>
+            <p>What&apos;s app: 01850262127</p>
           </div>
         </div>
       </div>
