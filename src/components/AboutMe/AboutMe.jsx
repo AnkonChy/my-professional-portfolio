@@ -9,7 +9,7 @@ const AboutMe = () => {
   }, []);
   return (
     <div
-      className="pt-16 md:w-10/12 md:mx-auto flex flex-col lg:flex-row"
+      className="pt-16 md:max-w-7xl md:mx-auto flex flex-col lg:flex-row"
       id="aboutMe"
     >
       <div

@@ -82,5 +82,17 @@
     "name": "MySQL",
     "level": "Intermediate",
     "image": "https://img.icons8.com/?size=48&id=UFXRpPFebwa2&format=png"
+  },
+  {
+    "id": 15,
+    "name": "Firebase",
+    "level": "Intermediate",
+    "image": "https://img.icons8.com/?size=80&id=ROMfFZ1tMhpk&format=png"
+  },
+  {
+    "id": 16,
+    "name": "Next.js",
+    "level": "Advanced",
+    "image": "https://img.icons8.com/?size=48&id=MWiBjkuHeMVq&format=png"
   }
 ]

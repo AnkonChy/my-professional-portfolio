@@ -15,7 +15,7 @@ const Hero = () => {
     <div
       className="clip-lg-wave min-h-screen md:min-h-[450px] lg:min-h-[650px] bg-violet-50 pt-20 px-4 lg:pt-20 md:py-10"
     >
-      <div className="lg:w-10/12 mx-auto mt-20 flex items-center justify-center flex-col lg:flex-row-reverse">
+      <div className="lg:max-w-7xl mx-auto mt-20 flex items-center justify-center flex-col lg:flex-row-reverse">
         <div className="lg:w-1/2 flex flex-col justify-center items-center">
           <img
             src="https://i.ibb.co.com/wFdQYyL8/Ankon-2.jpg"

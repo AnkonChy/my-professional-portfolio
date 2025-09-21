@@ -10,7 +10,7 @@ const Skills = () => {
       .then((data) => setSkills(data));
   }, []);
   return (
-    <div className="px-4 py-16 md:w-10/12 md:mx-auto">
+    <div className="py-16 w-full md:max-w-7xl md:mx-auto">
       <h1
         className="text-5xl font-bold text-center my-10"
         data-aos="fade-up"
@@ -18,7 +18,7 @@ const Skills = () => {
       >
         Skills
       </h1>
-      <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 md:gap-6">
         {skills.map((skill) => (
           <Skill key={skill.id} skill={skill}></Skill>
         ))}

@@ -8,7 +8,7 @@ const ProjectDetails = () => {
   const singleData = allData.find((data) => parseInt(id) === data.id);
 
   return (
-    <div className="py-20 w-10/12 mx-auto">
+    <div className="py-20 max-w-7xl mx-auto">
       <div className="flex flex-col lg:flex-row gap-4 items-center">
         <div className="lg:w-1/2">
           <img src={singleData.image} alt="" />

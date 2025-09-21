@@ -14,7 +14,7 @@ const Projects = () => {
   }, []);
   return (
     <div className="bg-[#f8f9f9]">
-      <div className="px-4 pt-10 pb-16 md:w-10/12 md:mx-auto" id="projects">
+      <div className=" pt-10 pb-16 md:max-w-7xl md:mx-auto" id="projects">
         <h1 className="text-5xl font-bold text-center my-10">Projects</h1>
         <div
           className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"

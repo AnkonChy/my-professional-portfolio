@@ -26,7 +26,7 @@ const ContactMe = () => {
   };
   return (
     <div>
-      <div className="w-11/12 mx-auto pt-16" id="contact">
+      <div className="max-w-7xl mx-auto pt-16" id="contact">
         <h1
           className="text-5xl font-bold text-center my-10"
           data-aos="fade-right"
@@ -35,7 +35,7 @@ const ContactMe = () => {
           Contact Me
         </h1>
         <div className="card card-side bg-base-100 shadow-xl flex-col lg:flex-row pb-14">
-          <div className="md:w-1/2 px-20 pt-10">
+          <div className="md:w-1/2 px-20 pt-4 md:pt-10">
             <form onSubmit={handleFormSubmit}>
               <label className="input input-bordered flex items-center gap-2">
                 <svg

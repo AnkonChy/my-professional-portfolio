@@ -5,7 +5,7 @@ import "./Navbar.css";
 const Navbar = () => {
   // const links = <></>;
   return (
-    <div className="navbar fixed  z-10 max-w-full lg:px-[140px] backdrop-blur-sm">
+    <div className="navbar fixed  z-10 max-w-full lg:px-[310px] backdrop-blur-sm">
       <div className="navbar-start">
         <Link to="/" className="text-xl font-semibold md:text-2xl lg:text-3xl">
           Ankon Chowdhury
