@@ -1,6 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import './Hero.css'
+import "./Hero.css";
 
 const PDF_FILE = "http://localhost:5173/Resume-of-Ankon-Chowdhury.pdf";
 
@@ -13,6 +13,7 @@ const Hero = () => {
   };
   return (
     <div
+      id="hero"
       className="clip-lg-wave min-h-screen md:min-h-[450px] lg:min-h-[650px] bg-violet-50 pt-20 px-4 lg:pt-20 md:py-10"
     >
       <div className="lg:max-w-7xl mx-auto mt-20 flex items-center justify-center flex-col lg:flex-row-reverse">

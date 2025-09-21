@@ -14,8 +14,10 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link
-              to="/"
+            <ScrollLink
+              to="hero"
+              smooth={true}
+              duration={500}
               className="relative text-base font-medium hover:bg-violet-50 text-black 
              after:content-[''] after:absolute after:bottom-1 
              after:left-1/2 after:transform after:-translate-x-1/2 
@@ -24,7 +26,7 @@ const Navbar = () => {
              after:duration-300 hover:after:scale-x-100"
             >
               Home
-            </Link>
+            </ScrollLink>
           </li>
           <li>
             <ScrollLink
