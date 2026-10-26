@@ -1,6 +1,30 @@
 [
   {
     "id": 1,
+    "name": "Career Forge AI",
+    "liveLink": "https://career-forge-client.vercel.app/",
+    "githubRepo": "https://github.com/AnkonChy/career-forge-client",
+    "image": "https://i.ibb.co.com/bR2MFCS5/career-forge-ai.png",
+    "type": "AI-Powered Career Development Platform",
+    "short_description": "An AI-powered platform for resume analysis and interview practice, helping users get instant feedback and prepare for real job interviews.",
+    "description": "Career Forge AI helps job seekers improve their resumes and prepare for interviews using AI. It analyzes uploaded resumes, generates concise summaries and actionable suggestions, and creates personalized interview questions with suggested answers. The platform also provides resume evaluation scores to help users understand their strengths and identify areas for improvement.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Node.js",
+      "Google Gemini API",
+      "Zustand"
+    ],
+    "tools": [
+      "Antigravity IDE",
+      "Git",
+      "Postman",
+      "GitHub"
+    ]
+  },
+  {
+    "id": 2,
     "name": "QuickGig",
     "liveLink": "https://quick-gig.web.app/",
     "githubRepo": "https://github.com/AnkonChy/quickgig-client.git",
@@ -20,7 +44,7 @@
     "tools": ["VS Code", "Git", "GitHub", "Postman"]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "PlateShare",
     "liveLink": "https://plate-share-42586.web.app/",
     "githubRepo": "https://github.com/AnkonChy/plate-share-client.git",
@@ -32,7 +56,7 @@
     "tools": ["VS Code", "GitHub", "Figma", "Postman"]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "CineVault",
     "liveLink": "https://portal-91857.web.app/",
     "githubRepo": "https://github.com/AnkonChy/cinevault-client.git",
@@ -44,7 +68,7 @@
     "tools": ["VS Code", "GitHub", "Postman", "Notion"]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Peddy",
     "liveLink": "https://my-peddy.netlify.app/",
     "githubRepo": "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-AnkonChy",
@@ -56,7 +80,7 @@
     "tools": ["VS Code", "GitHub", "Figma", "Chrome DevTools"]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "GadgetHeaven",
     "liveLink": "https://gadget-heavennn.netlify.app/",
     "githubRepo": "https://github.com/programming-hero-web-course2/b10a8-gadget-heaven-AnkonChy",
@@ -68,7 +92,7 @@
     "tools": ["VS Code", "GitHub", "Postman", "Figma"]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Eco Tales",
     "liveLink": "https://eco-adventure-experience-b2a10.web.app/",
     "githubRepo": "https://github.com/programming-hero-web-course1/b10-a9-authentication-AnkonChy",

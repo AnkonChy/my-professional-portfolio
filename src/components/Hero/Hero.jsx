@@ -1,5 +1,5 @@
 import React from "react";
-import { Typewriter } from "react-simple-typewriter";
+import { TypeAnimation } from 'react-type-animation';
 import "./Hero.css";
 
 const PDF_FILE = "http://localhost:5173/Resume-of-Ankon-Chowdhury.pdf";
@@ -27,18 +27,21 @@ const Hero = () => {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
             Hi, I&apos;m a passionate{" "}
             <span className="text-slate-700">
-              <Typewriter
-                words={[
-                  "Frontend Developer",
+              <TypeAnimation
+                sequence={[
+                  "Software Engineer",
+                  1000,
+                  "Full Stack Developer",
+                  1000,
                   "React Enthusiast",
-                  "MERN Stack Developer",
+                  1000,
+              
                 ]}
-                loop={0} // Infinite loop
-                cursor
-                cursorStyle="."
-                typeSpeed={70}
-                deleteSpeed={50}
-                delaySpeed={1000}
+                wrapper="span"
+                speed={70}
+                deletionSpeed={50}
+                repeat={Infinity}
+                className="text-slate-700 type-cursor"
               />
             </span>
           </h1>
